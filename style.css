@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow&family=Oswald:wght@700&display=swap');
+h1
+{
+    
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+
+}
+ 
+
+body
+{
+    background: lightyellow;
+}
+
+.emoji-face
+{
+      background: rgb(252, 183, 33);
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.07);
+      position: relative;
+}
+
+.eye1
+{
+       background-color: #000000;
+       height: 14px;
+       width: 13px;
+       border-radius: 50%;
+       position: absolute;
+       top: 30px;
+       left: 20px;
+}
+
+.eye2
+{
+    background-color: #000000;
+    height: 14px;
+    width: 13px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 66px;
+}
+
+.mouth
+{
+    background: #680707;
+    height: 34px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 52px;
+    left:15px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.tongue
+{
+    background: #ff3b18 ;
+    width: 38px;
+    height: 38px;
+    border-radius: 40%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+}
+
+.mouth-shock
+{
+    background: #ff3b18;
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.mouth-speechless
+{
+    background: #5d1608;
+    height: 5px;
+    width: 70px;
+    position: absolute;
+    top: 60px;
+    left: 16px;
+}
+
+.emoji-face
+{
+    float:left;
+    margin: 0px, 20px 0px, 0px;
+}
+
+/* Fixing the emoji */
+
+.wrapper
+{
+    position: absolute;
+    top:150px;
+    left:500px;
+}
+
+#heading
+{
+    text-align: center;
+    font-size: 4em;
+}
+h1{
+    font-size: 2em;
+
+}
+p{
+    font-size: 1.5em;
+}
+.emoji-face:hover
+{
+    background:rgba(252, 183, 33, 0.767);
+    transform: scale(10);
+}
+.write-up
+{
+    background-color: rgb(255, 238, 82);
+    padding: 5% 10%;
+    margin: 10% 20%;
+    text-align: center;
+    border-radius: 20px;
+}
